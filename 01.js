@@ -12,8 +12,19 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
-}
-
+  var numeros = [];
+  for( i = 0; i<array.length; i++){
+        if(typeof array[i] === 'number' ){
+            numeros.push(array[i])
+        }
+  }
+    return numeros;
+  // var numeros = array.filter(function(elemento) {
+  //   return typeof elemento === 'number';
+  //   });
+    
+  //   return numeros;
+    }
 // No modifiques nada debajo de esta linea //
 
 
